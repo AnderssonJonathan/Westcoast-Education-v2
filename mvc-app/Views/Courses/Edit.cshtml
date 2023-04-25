@@ -1,0 +1,22 @@
+@model westcoast_education.web.ViewModels.CourseEditViewModel;
+
+@{
+    ViewData["Title"] = "Create Course";
+    Layout = "_LayoutAdmin";
+}
+<h1 class="WelcomeText">Redigera kurs</h1>
+
+<form asp-action="edit" asp-controller="Courses" method="edit" class="EditForm">
+    <div class="FormControl">
+        <label asp-for="CourseId"></label>
+        <input type="text" asp-for="CourseId">
+        @* <select asp-for="Id" asp-items="Model.Teachers"></select> *@
+        @* <span class="error" asp-validation-for="Id"></span> *@
+    </div>
+
+    @* @Html.DropDownListFor(x => x.TeacherId, new SelectList(Enumerable.Empty<SelectListItem>())) *@
+    <div class="SubmitDiv">
+        <button type="submit" class="btn btn-primary"><i class="fa-sharp fa-solid fa-floppy-disk"></i>&nbsp;&nbsp; Spara</button>
+        <a asp-action="Index" asp-controller="Courses" class="btn btn-warning"><i class="fa-solid fa-arrow-left"></i>&nbsp;&nbsp; Avbryt</a>
+    </div>
+</form>

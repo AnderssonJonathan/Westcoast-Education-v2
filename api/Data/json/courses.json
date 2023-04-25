@@ -1,0 +1,74 @@
+[
+    {
+        "courseId": "332ec7b5-e075-4b1c-b3f7-5237d600a2ff",
+        "title": "JavaScript Grundkurs",
+        "courseNumber": 1635,
+        "duration": 5,
+        "startDate": "2023-01-02",
+        "endDate": "2023-02-06",
+        "teacherId": "e4757112-6e96-4fff-8eaa-8eff440284a2"
+    },
+    {
+        "courseId": "70966b4b-9baa-4628-862a-acf5ccff27a8",
+        "title": "Angular",
+        "courseNumber": 5307,
+        "duration": 5,
+        "startDate": "2023-02-06",
+        "endDate": "2023-03-06",
+        "teacherId": "61129db3-0b00-4854-98f5-dc159d514f90"
+    },
+    {
+        "courseId": "1d380612-3fac-4089-8085-1fd9f0d37746",
+        "title": "React",
+        "courseNumber": 4268,
+        "duration": 5,
+        "startDate": "2023-03-06",
+        "endDate": "2023-04-10",
+        "teacherId": "61129db3-0b00-4854-98f5-dc159d514f90"
+    },
+    {
+        "courseId": "87f2404f-5980-4ecd-9b08-e2183b841ae5",
+        "title": "Affärsmannaskap",
+        "courseNumber": 7776,
+        "duration": 5,
+        "startDate": "2023-01-02",
+        "endDate": "2023-02-06",
+        "teacherId": "7c660d3c-e883-4740-b15b-0ead1ff5b6d2"
+    },
+    {
+        "courseId": "d8de9434-0d59-498e-81f2-ea39d492ef78",
+        "title": "Retorik",
+        "courseNumber": 5762,
+        "duration": 5,
+        "startDate": "2023-02-06",
+        "endDate": "2023-03-06",
+        "teacherId": "13b4679b-4f2e-417b-a70b-69c16abcc65f"
+    },
+    {
+        "courseId": "e8ff0e98-310e-4594-8de9-3d965c1fdf07",
+        "title": "JavaScript Avancerad",
+        "courseNumber": 9223,
+        "duration": 5,
+        "startDate": "2023-08-28",
+        "endDate": "2023-09-25",
+        "teacherId": "e4757112-6e96-4fff-8eaa-8eff440284a2"
+    },
+    {
+        "courseId": "42861d93-468b-4763-86b7-6450339634e0",
+        "title": "Affärsmannaskap fortsättning",
+        "courseNumber": 8962,
+        "duration": 5,
+        "startDate": "2023-01-02",
+        "endDate": "2023-02-06",
+        "teacherId": "7c660d3c-e883-4740-b15b-0ead1ff5b6d2"
+    },
+    {
+        "courseId": "73fbce79-32e7-4bfd-a086-143b13c577dc",
+        "title": "Retorik fortsättning",
+        "courseNumber": 4611,
+        "duration": 5,
+        "startDate": "2023-05-02",
+        "endDate": "2023-06-09",
+        "teacherId": "13b4679b-4f2e-417b-a70b-69c16abcc65f"
+    }
+]

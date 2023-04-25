@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    max-width: 600px;
+    background: var(--light-color);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+form label {
+color: var(--primary-color);
+}
+
+input {
+padding: 0.6rem 0.2rem;
+}
+
+input[type='text'],
+input[type='number'] {
+width: 100%;
+border-radius: 5px;
+border: 1px solid var(--primary-border-color);
+outline: none !important;
+}
+
+.form-control {
+margin: 0.2rem 0;
+}
+
+.form-control label {
+display: block;
+}
+
+.form-control a{
+    text-decoration: none;
+    color: black;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 2rem;
+}
+
+.page-title {
+    color: var(--title-color);
+    padding: 2rem 0 1rem 0;
+}
+
+.details-coloumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.details-row {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+
+.header-info {
+    font-weight: 400;
+}
+
+.content-main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 5rem;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    margin-top: 2rem;
+    margin-right: 3rem;
+}
+
+#content-main-courses {
+    background-image: url('/img/courses.jpg');
+}
+
+#content-main-members {
+    background-image: url('/img/members.jpg');
+}
+
+.title-main h1 {
+    font-size: 40px;
+}
+
+.list-main a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-list-item {
+    font-size: x-large;
+    margin-bottom: 40px;
+}
+
+.container-landing-page {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}

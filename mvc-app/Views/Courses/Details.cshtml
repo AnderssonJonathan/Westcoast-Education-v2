@@ -1,0 +1,30 @@
+@model westcoast_education.web.ViewModels.CourseDetailsViewModel
+
+
+<h1>Kursedetaljer - @Model.Title</h1>
+
+<div class="details-coloumn">
+    <div class="details-row">
+        <h2>Kursbeteckning: </h2><h2 class="header-info">@Model.CourseNumber</h2>
+    </div>
+    <div class="details-row">
+        <h2>Period: </h2><h2 class="header-info">@Model.StartDate - @Model.EndDate</h2>
+    </div>
+    <div class="details-row">
+        @if (Model.Teacher is not null)
+        {
+            <h2>Lärare</h2><h2 class="header-info">@Model.Teacher.FirstName @Model.Teacher.LastName</h2> 
+        }
+    </div>
+    <div class="details-row">
+        <h2>Elever</h2>
+        @foreach (var student in Model.Students)
+        {
+            <h2 class="header-info">@student.FirstName</h2>
+        }
+    </div>
+    <div class="main-list-item">
+        <br><a class="btn btn-primary" id="table-title" asp-action="edit" asp-route-id=@Model.CourseId asp-controller="Courses"><h3 class="header-info"><b>Ändra Kurs</b></h3></a>
+    </div>
+</div>
+

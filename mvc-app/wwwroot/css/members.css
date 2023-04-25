@@ -1,0 +1,27 @@
+.content-members{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 5rem;
+    height: 500px;
+    background-image: url('/img/members.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    margin-top: 2rem;
+    margin-right: 3rem;
+}
+
+.title-members h1{
+    font-size: 40px;
+}
+
+.members-list-item{
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.list-members a{
+    text-decoration: none;
+    color: black;
+}

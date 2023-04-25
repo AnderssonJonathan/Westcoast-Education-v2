@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700&display=swap');
+
+:root {
+    /*   color variables */
+    --clr-gray100: #e2edee;
+    --clr-gray200: #cfd8dc;
+  
+    /*   border radius */
+    --radius: 0.2rem;
+}
+
+.landing {
+    background: url('/img/landing.jpg') no-repeat center center/cover;
+    height: 800px;
+    position: relative;
+}
+
+.landing .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.landing .content h1, h2, p{
+    margin: 5px;
+}

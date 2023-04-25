@@ -1,0 +1,73 @@
+.buttons-container {
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+}
+
+.btn {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 5px;
+    margin: 0.3rem 0;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.btn:hover {
+opacity: 0.9;
+font-weight: bold;
+}
+
+.btn-primary,
+.bg-primary {
+color: var(--light-color);
+background-color: darkgray;
+text-decoration: none;
+}
+
+.btn-secondary,
+.bg-secondary {
+    color: var(--light-color);
+    background-color: var(--secondary-color);
+}
+
+.btn-warning {
+color: var(--light-color);
+background: var(--warning-color);
+border: var(--delete-icon-color) solid 1px;
+}
+
+.btn-dark,
+.bg-dark {
+color: var(--light-color);
+background-color: var(--dark-color);
+}
+
+.btn-light,
+.bg-light {
+color: var(--dark-color);
+background-color: var(--light-color);
+}
+
+.btn-outline {
+background: transparent;
+border: solid 1px var(--dark-color);
+color: var(--dark-color);
+}
+
+.error {
+    color: rgb(222, 98, 98);
+}
+
+.button-landing-page {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(253, 185, 160);
+}
+  

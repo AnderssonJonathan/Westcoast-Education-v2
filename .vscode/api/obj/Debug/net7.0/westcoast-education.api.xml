@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>westcoast-education.api</name>
+    </assembly>
+    <members>
+        <member name="M:westcoast_education.api.Controllers.CoursesController.ListAll">
+            <summary>
+            Listar alla kurser i systemet.
+            </summary>
+        </member>
+        <member name="M:westcoast_education.api.Controllers.CoursesController.GetById(System.Guid)">
+            <summary>
+            Hämtar en kurs baserat på kursid.
+            </summary>
+            <response code="200">
+            Returnerar en kurs med kursinformation baserat på sökt kurs med dess lärare och studenter
+            </response>
+        </member>
+        <member name="M:westcoast_education.api.Controllers.StudentController.ListAll">
+            <summary>
+            Listar alla studenter i systemet.
+            </summary>
+        </member>
+        <member name="M:westcoast_education.api.Controllers.TeacherController.ListAll">
+            <summary>
+            Listar alla lärare i systemet.
+            </summary>
+        </member>
+        <member name="T:westcoasteducation.api.Data.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:westcoasteducation.api.Data.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:westcoasteducation.api.Data.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:westcoasteducation.api.Data.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

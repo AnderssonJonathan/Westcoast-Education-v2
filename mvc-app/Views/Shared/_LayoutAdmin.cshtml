@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2575039bd5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="~/css/styles.css">
+    <link rel="stylesheet" href="~/css/navigation.css">
+    <link rel="stylesheet" href="~/css/colors.css">
+    <link rel="stylesheet" href="~/css/tables.css">
+    <link rel="stylesheet" href="~/css/utilities.css">
+
+    <title>Westcoast Education</title>
+    
+</head>
+<body>
+    <header>
+        <navbar>
+          <ul class="nav-list">
+                <li class="nav-item"><a asp-action="Index" asp-controller="Home"><i class="fa-solid fa-chalkboard-user"></i>&nbsp;&nbsp;&nbsp;<b>Westcoast Education</b></a></li>
+                <li class="nav-item"><a asp-action="Index" asp-controller="Home">Start</a></li>
+                <li class="nav-item"><a asp-action="Index" asp-controller="Courses">Kurser</a></li>
+                <li class="nav-item"><a asp-action="Index" asp-controller="Teachers">Lärare</a></li>
+                <li class="nav-item"><a asp-action="Index" asp-controller="Students">Studenter</a></li>
+            </ul>
+        </navbar>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+</body>
+</html>

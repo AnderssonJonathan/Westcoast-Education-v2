@@ -1,0 +1,24 @@
+@model westcoast_education.web.ViewModels.TeacherDetailsViewModel
+
+<h1>Lärarinformation</h1>
+
+<div class="details-coloumn">
+    <div class="details-row">
+        <h2>Namn: </h2><h2 class="header-info">@Model.FirstName @Model.LastName</h2>
+    </div>
+    <div class="details-row">
+        <h2>E-post: </h2><h2 class="header-info">@Model.Email</h2>
+    </div>
+    </br>
+    </br>
+    <div class="details-row">
+        <h2>@Model.FirstName undervisar i:</h2>
+        <select name="cources" id="course-select">
+            @foreach (var course in Model.Courses)
+        {
+            <option value=">@course.CourseId">@course.Title</option>
+        }
+</select>
+        
+    </div>
+</div>

@@ -1,0 +1,16 @@
+:root {
+  --primary-background-color: #ee9504;
+  --background-color: #f4f4f4;
+  --primary-color: rgb(105, 105, 105);
+  --primary-text-color: #f4f4f4;
+  --secondary-text-color: #9c9b9b;
+  --light-text-color: #f4f4f4;
+  --primary-border-color: #9c9b9b;
+  --dark-color: #212121;
+  --light-color: #f4f4f4;
+  --navbar-primary-color: #132a6b;
+  --navbar-color: #f4f4f4;
+  --table-background-color: #ffff;
+  --error-text: #750404;
+  --warning-color: #ee9504;
+}

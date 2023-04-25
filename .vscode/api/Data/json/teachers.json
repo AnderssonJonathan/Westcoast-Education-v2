@@ -1,0 +1,46 @@
+[
+    {
+        "id": "e4757112-6e96-4fff-8eaa-8eff440284a2",
+        "socialSecurityNumber": "1990-01-01",
+        "firstName": "Filippa",
+        "lastName": "Karlsson",
+        "email": "filippa@gmail.com",
+        "phone": "076-123123",
+        "adress": "Lugnagatan 1",
+        "postalCode": "123 12",
+        "city": "Småstaden"
+    },
+    {
+        "id": "61129db3-0b00-4854-98f5-dc159d514f90",
+        "socialSecurityNumber": "1984-05-04",
+        "firstName": "Angelica",
+        "lastName": "Sjöstrand",
+        "email": "angelica@gmail.com",
+        "phone": "072-321321",
+        "adress": "Sjögatan",
+        "postalCode": "121 24",
+        "city": "Staden"
+    },
+    {
+        "id": "7c660d3c-e883-4740-b15b-0ead1ff5b6d2",
+        "socialSecurityNumber": "1987-08-04",
+        "firstName": "Tove",
+        "lastName": "Vikander",
+        "email": "tove@gmail.com",
+        "phone": "073-654654",
+        "adress": "Byvägen 3",
+        "postalCode": "123 45",
+        "city": "Staden"
+    },
+    {
+        "id": "13b4679b-4f2e-417b-a70b-69c16abcc65f",
+        "socialSecurityNumber": "1972-06-11",
+        "firstName": "Anders",
+        "lastName": "Berggren",
+        "email": "anders@gmail.com",
+        "phone": "076-654321",
+        "adress": "Storgatan 2",
+        "postalCode": "678 90",
+        "city": "Storstaden"
+    }
+]

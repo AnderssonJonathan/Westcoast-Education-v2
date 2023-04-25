@@ -1,0 +1,33 @@
+.nav-list{
+    background-color: var(--clr-gray100);
+    box-shadow:0px 0px 10px var(--clr-gray200);
+    margin: 0;
+    padding: 1rem 0;
+    border-radius: var(--radius);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#nav-list-admin{
+    background-color: rgb(253, 185, 160);
+}
+
+.nav-item{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item:first-child{
+    margin-right: auto;
+    margin-left: 2rem;
+}
+

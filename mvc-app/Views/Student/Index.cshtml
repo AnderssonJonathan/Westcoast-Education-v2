@@ -1,0 +1,22 @@
+@model IEnumerable<westcoast_education.web.ViewModels.StudentListViewModel>
+
+@{
+    ViewBag.PageTitle = "studenter";
+}
+
+<div class="content-main" id="content-main-courses">
+    <div class="title-main">
+        <h1>Studenter</h1>
+    </div>
+    <div class="list-main">
+        @* Razorkod som dynamiskt listar mina kurser som finns i Courses-egenskapen i ViewBag*@
+        @foreach (var student in Model) 
+        {
+            <div class="main-list-item">
+                <a asp-action="details" a asp-route-id=@student.Id><i class="fa-solid fa-graduation-cap"></i>&nbsp;&nbsp;&nbsp;@student.FirstName - @student.LastName</a>
+            </div>
+        }
+    </div>
+</div>
+
+    

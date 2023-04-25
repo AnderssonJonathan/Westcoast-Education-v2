@@ -1,0 +1,39 @@
+@model westcoast_education.web.ViewModels.CoursePostViewModel;
+
+@{
+    ViewData["Title"] = "Create Course";
+    Layout = "_LayoutAdmin";
+}
+<h1 class="WelcomeText">Add Course</h1>
+<form asp-action="create" asp-controller="Courses" method="post" class="EditForm">
+    <div class="FormControl">
+        <label asp-for="Title"></label>
+            <input asp-for="Title" />
+            <span class="error" asp-validation-for="Title"></span>
+    </div>
+    <div class="FormControl">
+        <label asp-for="CourseNumber"></label>
+            <input asp-for="CourseNumber" />
+            <span class="error" asp-validation-for="CourseNumber"></span>
+    </div>
+     <div class="FormControl">
+        <label asp-for="Duration"></label>
+            <input asp-for="Duration" />
+            <span class="error" asp-validation-for="Duration"></span>
+    </div>
+    <div class="FormControl">
+        <label asp-for="StartDate"></label>
+            <input asp-for="StartDate" />
+            <span class="error" asp-validation-for="StartDate"></span>
+    </div>
+    <div class="FormControl">
+        <label asp-for="TeacherId"></label>
+            <input asp-for="TeacherId" />
+            <span class="error" asp-validation-for="TeacherId"></span>
+    </div>
+    @* @Html.DropDownListFor(x => x.TeacherId, new SelectList(Enumerable.Empty<SelectListItem>())) *@
+    <div class="SubmitDiv">
+        <button type="submit" class="btn btn-primary"><i class="fa-sharp fa-solid fa-floppy-disk"></i>&nbsp;&nbsp; Spara</button>
+        <a asp-action="Index" asp-controller="Courses" class="btn btn-warning"><i class="fa-solid fa-arrow-left"></i>&nbsp;&nbsp; Avbryt</a>
+    </div>
+</form>

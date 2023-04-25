@@ -1,0 +1,22 @@
+[
+    {
+        "courseId": "332ec7b5-e075-4b1c-b3f7-5237d600a2ff",
+        "studentId": "c12ac5cc-e459-4879-9d86-7dc721fd5916",
+        "status": 0
+    },
+    {
+        "courseId": "70966b4b-9baa-4628-862a-acf5ccff27a8",
+        "studentId": "50b5b438-d09b-4852-ac6f-8d8ec4717d48",
+        "status": 1
+    },
+    {
+        "courseId": "87f2404f-5980-4ecd-9b08-e2183b841ae5",
+        "studentId": "02f6da4a-e71d-4868-9821-6912bf0a1ccc",
+        "status": 2
+    },
+    {
+        "courseId": "1d380612-3fac-4089-8085-1fd9f0d37746",
+        "studentId": "5bc654e1-c6ea-4dd7-aaa1-b2eef1504428",
+        "status": 1
+    }
+]

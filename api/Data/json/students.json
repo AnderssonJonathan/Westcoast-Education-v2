@@ -1,0 +1,51 @@
+[
+    {
+        "id": "c12ac5cc-e459-4879-9d86-7dc721fd5916",
+        "socialSecurityNumber": "1994-03-04-3021",
+        "firstName": "Jacob",
+        "lastName": "Karlström",
+        "email": "Jacobkarlstrom@gmail.com",
+        "phone": "076-1234567",
+        "adress": "Linnegatan 23",
+        "postalCode": "411 23",
+        "city": "Göteborg",
+        "country": "Landet",
+        "courseId": "332ec7b5-e075-4b1c-b3f7-5237d600a2ff"
+    },
+    {
+        "id": "50b5b438-d09b-4852-ac6f-8d8ec4717d48",
+        "socialSecurityNumber": "1985-03-17-4231",
+        "firstName": "Sara",
+        "lastName": "Kallbäck",
+        "email": "Sarakallback@gmail.com",
+        "phone": "076-7654321",
+        "adress": "Strandvägen 18",
+        "postalCode": "914 51",
+        "city": "Helsingborg",
+        "courseId": "70966b4b-9baa-4628-862a-acf5ccff27a8"
+    },
+    {
+        "id": "02f6da4a-e71d-4868-9821-6912bf0a1ccc",
+        "socialSecurityNumber": "1996-01-06-4242",
+        "firstName": "Sofia",
+        "lastName": "Gustafsson",
+        "email": "sofia@gmail.se",
+        "phone": "070-123456",
+        "adress": "Tångvägen 9",
+        "postalCode": "432 67",
+        "city": "Varberg",
+        "courseId": "87f2404f-5980-4ecd-9b08-e2183b841ae5"
+    },
+    {
+        "id": "5bc654e1-c6ea-4dd7-aaa1-b2eef1504428",
+        "socialSecurityNumber": "1998-05-28-3151",
+        "firstName": "Albert",
+        "lastName": "Hjalmarsson",
+        "email": "albert@gmail.com",
+        "phone": "076-9876545",
+        "adress": "Åkarevägen 7",
+        "postalCode": "572 83",
+        "city": "Kungsbacka",
+        "courseId": "1d380612-3fac-4089-8085-1fd9f0d37746"
+    }
+]
